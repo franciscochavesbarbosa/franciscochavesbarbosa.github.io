@@ -1,0 +1,32 @@
+body.b{
+    background-color: khaki;
+    background-image: url("./img/cris.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    border: 2px green solid;
+}
+h1.cr{
+    color: red;
+}
+li.menu{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    margin: 80px;
+    border: 3px red dashed;
+    color: wheat;
+}
+
+footer.final{
+    border: 2px green dashed;
+}
+
+
+img.Ronaldo{
+    width: px;
+    left:40%;
+    height: 23%;
+}
