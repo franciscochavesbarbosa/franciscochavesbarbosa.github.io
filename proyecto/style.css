@@ -20,10 +20,25 @@ li.menu{
     border: 3px red dashed;
     color: wheat;
 }
+nav.n{
+    border: 2px red solid;
+}
+
+
+
+
+
 
 footer.final{
     border: 2px green dashed;
 }
+
+
+
+
+
+
+
 
 img.Ronaldo{
     width: 110px;
