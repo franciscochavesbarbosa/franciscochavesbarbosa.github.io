@@ -22,8 +22,15 @@ li.menu{
 }
 nav.n{
     border: 2px red solid;
+    position: relative;
 }
-
+main.lateral{
+    border: 2px red solid;
+    position: relative;
+    padding-top: 2%;
+    width: 34%;
+    margin: 2%;
+}
 
 
 
