@@ -8,9 +8,12 @@ body.b{
 header{
     border: 2px red solid;
     border-radius: 9%;
+/*parte del medio del trabajo*/
 }
-h1.cr{
+h1.principal{
     color: red;
+    padding: auto;
+    position: relative;
 }
 li.menu{
     list-style-type: none;
@@ -34,7 +37,7 @@ main.lateral{
 
 
 
-
+/*Parte final del trabajo */
 
 footer.final{
     border: 2px green dashed;
@@ -50,7 +53,7 @@ h5.enlace{
 
 
 
-
+/*imagenes*/
 
 img.tortuga1{
     width: 110px;
