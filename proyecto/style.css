@@ -39,6 +39,11 @@ main.lateral{
 footer.final{
     border: 2px green dashed;
 }
+h5.enlace{
+    color: aliceblue;
+    position: relative;
+    margin:2%;
+}
 
 
 
@@ -68,5 +73,13 @@ img.tortu2{
     height: 87px;
     padding: %;
     margin: 30px;
+    position: relative;
+}
+img.youtube{
+    width: 122px;
+    left: 1px;
+    height: 87px;
+    padding: 2%;
+    margin: 2px;
     position: relative;
 }
