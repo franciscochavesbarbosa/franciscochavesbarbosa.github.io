@@ -26,6 +26,7 @@ li.menu{
     margin: 90px;
     border: 3px red dashed;
     color: wheat;
+    text-decoration: none; /*quitar subrayado*/
 }
 nav.n{
     border: 2px red solid;
