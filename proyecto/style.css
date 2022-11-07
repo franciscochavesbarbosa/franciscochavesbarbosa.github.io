@@ -8,12 +8,16 @@ body.b{
 header{
     border: 2px red solid;
     border-radius: 9%;
+    font-family: 'Courier New', Courier, monospace;
+
 /*parte del medio del trabajo*/
 }
 h1.principal{
     color: red;
     padding: auto;
     position: relative;
+    text-align: center;
+
 }
 li.menu{
     list-style-type: none;
