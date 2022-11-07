@@ -1,6 +1,6 @@
 body.b{
     background-color: khaki;
-    background-image: url("./img/cris.gif");
+    background-image: url("./img/tortu.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -47,25 +47,25 @@ footer.final{
 
 
 
-img.Ronaldo{
+img.tortuga1{
     width: 110px;
     left: ;
     height: 57px;
     padding: 2%;
     position: relative;
 }
-img.cr2{
+img.tortu1{
     width: 110px;
     left: 122px;
-    height: 57px;
+    height: 87px;
     padding: %;
     margin: 30px;
     position: relative;
 }
-img.cr3{
+img.tortu2{
     width: 110px;
-    left: 212px;
-    height: 57px;
+    left: 450px;
+    height: 87px;
     padding: %;
     margin: 30px;
     position: relative;
