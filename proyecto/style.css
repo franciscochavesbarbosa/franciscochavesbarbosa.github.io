@@ -6,7 +6,7 @@ body.b{
     background-size: cover;
 }
 header{
-    border: 2px green solid;
+    border: 2px red solid;
     border-radius: 9%;
 }
 h1.cr{
@@ -27,7 +27,7 @@ nav.n{
 main.lateral{
     border: 2px red solid;
     position: relative;
-    padding-top: 2%;
+    padding-top: 74%;
     width: 34%;
     margin: 2%;
 }
