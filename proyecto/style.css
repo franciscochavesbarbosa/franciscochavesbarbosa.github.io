@@ -27,7 +27,11 @@ li.menu{
     border: 3px red dashed;
     color: wheat;
     text-decoration: none; /*quitar subrayado*/
+
 }
+li.a:hover{
+    color: blue;
+} /*CAMBIAR DE COLOR AL PASAR EL RATÓN/*
 nav.n{
     border: 2px red solid;
     position: relative;
