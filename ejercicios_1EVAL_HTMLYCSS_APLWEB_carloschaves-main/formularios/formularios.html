@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularaio</title>
+</head>
+<body style="background-color: bisque;">
+<fieldset> <!--Junta datos en un cuadro-->
+    <legend>Datos personales</legend> <!--Sirve para crear encabezado del recuadro-->
+    <form action="procesarformulario.php" method="get"></form> <!-- Get sirve para enseñar la url, si no queremos enseñarlo ponemos set-->
+      <label for="nombre1"><p>Nombre: <input type="text" name="nombre" size="40" placeholder="Nombre" id="nombre1"></p>
+    </label> <!--label for...sirve para que cuando pulsemos en el nombre nos lleve al campo en blanco-->
+        <p>Apellido: <input type="text" name="nombre" size="40" placeholder="Apellidos"></p>
+        <p>Email <input type="email" name="email" size="30" required placeholder="Email"></p>
+       <p>Año de nacimiento<input type="number" name="nacido" placeholder="Fecha de nacimiento"></p>
+        <p>Foto de dni:<input type="file" name="fotodni"></p>
+        <p>
+            lugar de nacimiento
+            <select name="menu" id="lugardenacimiento">
+                <option value="sinelegir">.</option>
+                <optgroup label="Cataluña">
+                <option>Barcelona</option>
+                <option>Tarragona</option>
+            </optgroup>
+                <optgroup label="Comuniadad de Madrid"></optgroup> <!-- Crear un grupo -->
+                <option>Madrid</option>
+
+            </select>
+
+        </p>
+       <p>sexo:
+            <input type="radio" name="hm" value="h">Hombre
+             <input type="radio" name="hm" value="m">Mujer
+        </p>
+    </fieldset>
+        <p>Deportes <br>
+            <input type="checkbox" name="futbol"> Fútbol
+            <input type="checkbox" name="balocesto"> balocesto
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+         <input type="reset" value="Borrar">
+        </p>
+         <p> Comentario
+         <textarea name="texto" rows="10" cols="30" placeholder="Escribe tu comentario"></textarea> <!--Para crear una caja de comentario-->
+         </p>
+         <button>
+
+            <img src="f.jpeg" alt="whatsapp" width="222" height="150">
+        Botón creado con button
+         </button>
+         <br>
+         <br>
+         <br>
+         <select name="menu[]" id="Lugaresvisitados" multiple > <!--Sirve para elegir varias opciones-->
+            <option label="sinelegir"></option>
+            <option>Madrid</option>
+            <option>Barcelona</option>
+            <option>Valencia</option>
+         </select>
+       
+</body>
+</html>

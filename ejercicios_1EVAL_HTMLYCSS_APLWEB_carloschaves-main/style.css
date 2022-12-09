@@ -1,0 +1,13 @@
+body{
+    background-color: blueviolet;
+}
+div{
+    position: absolute;
+    left: 50%;
+    top: 170px;
+}
+hr{
+    width: 50%;
+    height: 2px;
+    background-color: white;
+}

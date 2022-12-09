@@ -1,0 +1,12 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-image:url(img/carita.png);
+}
+dt,personalizado{
+    background-color: red;
+    border-color: blue;
+    border-style: dotted;
+    border-width: 2px;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+header{
+    position: relative;
+    border: 2px black solid;
+    margin: 80px;
+    width: 50%;
+    height: 10%; 
+    background-color: darkgray;
+    text-align: center;
+    line-height: 45px;
+}
+.uno{
+    border: 2px black solid;
+    position: relative;
+    margin: 80px;
+    width: 50%;
+    height: 50%;
+    top: -16%;
+    background-color: forestgreen;
+    ;
+}
+p.menu{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+}
