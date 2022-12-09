@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(32, 50, 88);
+   
+}
+p.real{
+    color: red;
+    border-color: red blue;
+    border-style: outset;
+    border-width: 10px;
+    width: 35%;
+    padding: 20%;
+
+}
+table.PEPE{
+    border-color: blue;
+
+}
+th.ja{
+    border-color: red;
+    width: 5%;
+    padding: 2%;
+    border-style: dotted
+}
+th.k{
+    border-color: red;
+    padding: 2%;
+    border-style: double;
+}
+p.carlos{
+        color: chocolate;
+        pad: 4px;
+        border: powderblue 5px dashed;
+        width: 60%;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+}
+hr.e{
+   height: 5%;
+   border-bottom-left-radius: 8%;
+   border-bottom-right-radius: 10%;
+   border-style: dashed 
+}
