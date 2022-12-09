@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+      <header> <!--Principio del encabezado-->
+            <h1 class="principal">TORTUGAS NINJAS</h1>
+
+
+            <ul class="menu">
+                    <li class="menu"><a href="./index.html">Inicio</a></li>
+                     <li class="menu"><a href="./historia.html">Historia</a></li>
+                     <li class="menu"><a href="./caracteristicas.html" > Caracteristicas</a></li>
+                     <li class="menu" ><a href="./curriculum1.html">Curriculum</a></li>
+
+            </ul>
+            
+        </header><!---Fin del encabezado-->
+    <h2 class="formulario">Formulario</h2>
+    <fieldset>
+        <legend><u>Información Personal</u></legend>
+        <p><strong>Nombre:</strong>&nbsp;&nbsp;<input type="text" placeholder="Escriba su nombre" ></p>
+        <br>
+        <p><strong>Apellidos</strong>&nbsp;<input type="text" placeholder="Escriba sus apellidos"></p>
+        <br>
+        <p><strong>Sexo</strong>&nbsp;&nbsp;<input type="radio" name="hm" value="h"> Hombre
+                            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <br>
+        <label ><strong>Edad</strong></label>
+        <select name="EDAD" id="EDAD">
+            <option value="10-15">10-15</option>
+          <option value="16-20">16-20</option>
+          <option value="20-30">20-30</option>
+          <option value="mas de 30">+30</option>
+        </select>
+
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend><u>Sobre la Página web</u></legend>
+
+        <p><strong>¿Te ha gustado la página web?.</strong><br>
+            <br>
+        si<input type="radio" name="casilla">
+        No<input type="radio" name="casilla">
+        Algunas Cosas<input type="radio" name="casilla">
+    </p>
+    <p><strong>¿Cuál es la probabilidad que compartas está página web?</strong><br>
+        <br>
+        Muy Probable<input type="checkbox" name="casilla">&nbsp;&nbsp;
+        Poco Probable&nbsp;<input type="checkbox" name="casilla">
+    </p>
+
+      <p><strong>¿Puntuación que nos daría por la página web?</strong><br>
+
+
+     De 1,5 y 10 (Sin mover la barra es 1 el del medio es 5 y todo a la derecha es un 10 )
+     <input type="range" name="rango"
+       min="1" max="10" step="3">
+    </p>
+    <p><strong>¿Qué te gustaria que pusieramos en la página</strong></p>
+        <textarea placeholder="Escribir tu documentario" ></textarea>
+
+        <p><strong>¿Consideras que el diseño de la interfaz: accesibilidad, navegación, etc., de la página
+            web son adecuados?</strong><br>
+            <br>
+            si<input type="radio" name="casilla"> &nbsp;
+            No<input type="radio" name="casilla">
+        </p> 
+        <p><strong>¿Eres muy fanático de los Tortugas Ninjas?</strong><br>
+            si<input type="radio" name="casilla">&nbsp;&nbsp;
+            No<input type="radio" name="casilla">
+        
+        </p>
+        <p><strong>¿Te gustaría recibir una foto personalizada?</strong><br>
+        si<input type="checkbox" name="casilla">&nbsp;&nbsp;
+        No&nbsp;<input type="checkbox" name="casilla">
+    </p>
+
+    <p><strong>En caso de la preguntar anterior ser un SI, aquí puedes adjuntar una foto</strong><br></p>
+        <form>
+            Selecciona un fichero: <input type="file" name="myFile">
+        </form>
+    </fieldset>
+
+
+
+    
+    <div class="botonesenviar">
+        <form method="post" action="malito:franciscongkschaves@gmail.com"></form>
+        &nbsp;&nbsp;  <input type="submit" value="Enviar">&nbsp;
+          <input type="reset" value="Borrar">
+      </div>
+
+      <!--Parte Final-->
+      <footer class="final">
+        <h5 class="des">NUESTRAS REDES SOCIALES</h5>
+            <a href="https://wwws.youtube.com/watch?v=mfjOkZ7AYpY&t=1s"><img src="./img/yotube.png" alt="TORTUGAS" class="youtubee"></a>
+             <a href="https://www.instagram.com/tortugasninja2k3/?__coig_restricted=1"><img src="./img/insta.webp" alt="Instagram" class="instagraam"></a>
+         <h5 class="des">© Diciembre 2022 , S.L.U. Todos los derechos reservados.</h5>
+    
+    </footer>
+    
+  
+</body>
+</html>
