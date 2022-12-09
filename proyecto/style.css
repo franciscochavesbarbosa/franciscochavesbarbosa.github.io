@@ -1,0 +1,101 @@
+body.b{
+    background-color: khaki;
+    background-image: url("./img/tortu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    border: 2px red solid;
+    border-radius: 9%;
+    font-family: 'Courier New', Courier, monospace;
+
+/*parte del medio del trabajo*/
+}
+h1.principal{
+    color: red;
+    padding: auto;
+    position: relative;
+    text-align: center;
+
+}
+p{
+    color: red;
+    text-align: center;
+}
+li.menu{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    margin: 90px;
+    border: 3px red dashed;
+    color: wheat;
+    text-decoration: none; /*quitar subrayado*/
+
+}
+li.a:hover{
+    color: blue;
+} /*CAMBIAR DE COLOR AL PASAR EL RATÓN/*
+nav.n{
+    border: 2px red solid;
+    position: relative;
+}
+main.lateral{
+    border: 2px red solid;
+    position: relative;
+    padding-top: 74%;
+    width: 34%;
+    margin: 2%;
+}
+
+
+
+/*Parte final del trabajo */
+
+footer.final{
+    border: 2px green dashed;
+}
+h5.enlace{
+    color: aliceblue;
+    position: relative;
+    margin:2%;
+}
+
+
+
+
+
+
+/*imagenes*/
+
+img.tortuga1{
+    width: 110px;
+    left: ;
+    height: 57px;
+    padding: 2%;
+    position: relative;
+}
+img.tortu1{
+    width: 110px;
+    left: 122px;
+    height: 87px;
+    padding: %;
+    margin: 30px;
+    position: relative;
+}
+img.tortu2{
+    width: 110px;
+    left: 450px;
+    height: 87px;
+    padding: %;
+    margin: 30px;
+    position: relative;
+}
+img.youtube{
+    width: 122px;
+    left: 1px;
+    height: 87px;
+    padding: 2%;
+    margin: 2px;
+    position: relative;
+}
